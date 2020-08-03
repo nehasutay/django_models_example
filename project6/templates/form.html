@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>document</title>
+</head>
+<body>
+	<form action="/save" method="POST">{% csrf_token %}
+		<input type="text" name="name">
+		<input type="text" name="addr">
+		<button type="submit">submit</button>
+		
+	</form>
+	
+
+</body>
+</html>
